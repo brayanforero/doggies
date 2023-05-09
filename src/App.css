@@ -1,0 +1,36 @@
+#root {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 102.4rem; /*1024px*/
+  margin-inline: auto;
+  padding-inline: 2em;
+}
+
+.place-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.animal-cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: currentColor;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.animal-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-pets {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+}

@@ -1,0 +1,33 @@
+.navigation {
+  --header-height: 6rem; /*60px*/
+  height: var(--header-height);
+  overflow: hidden;
+}
+.navigation__logo {
+  font-size: 1.5em;
+}
+
+.navigation__nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.navigation__menu {
+  display: flex;
+  padding-left: 0;
+  margin-left: auto;
+  column-gap: 1em;
+  list-style: none;
+}
+
+.navigation__link {
+  color: inherit;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navigation__link.is-active {
+  color: tomato;
+  pointer-events: none;
+}
