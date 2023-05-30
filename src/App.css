@@ -9,6 +9,10 @@
   padding-inline: 2em;
 }
 
+.section {
+  padding-block: 2em 1.25em;
+}
+
 .place-center {
   align-items: center;
   justify-content: center;
@@ -17,7 +21,6 @@
 .animal-cover {
   width: 100%;
   aspect-ratio: 16/9;
-  background-color: currentColor;
   border-radius: 0.6rem;
   overflow: hidden;
 }

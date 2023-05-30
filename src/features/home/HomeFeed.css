@@ -1,0 +1,28 @@
+.home-feed {
+  height: calc(100vh - var(--header-height));
+  text-align-last: left;
+  outline: solid 1px currentColor;
+}
+
+.home--feed__title {
+  color: pink;
+  font-size: 3-2rem;
+}
+
+.home--feed__cover {
+  margin-inline: auto;
+  border-radius: var(--radius);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.home-feed__cta {
+  display: flex;
+  width: 100%;
+  max-width: 32rem;
+  margin-inline: auto;
+  padding-block: 1.25em;
+  font-size: 1.8rem;
+  background-color: tomato;
+  color: white;
+  justify-content: center;
+}

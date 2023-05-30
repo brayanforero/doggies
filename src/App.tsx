@@ -1,10 +1,11 @@
+import { PageLayout } from '@components/shared'
 import './App.css'
-import { PageLayout } from './components/layouts'
+import { HomeFeed } from './features'
 
 function App (): JSX.Element {
   return (
     <PageLayout>
-      <h1>Welcome to the best page about pets</h1>
+      <HomeFeed />
     </PageLayout>
   )
 }

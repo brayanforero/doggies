@@ -1,9 +1,8 @@
 .navigation {
-  --header-height: 6rem; /*60px*/
   height: var(--header-height);
-  overflow: hidden;
 }
 .navigation__logo {
+  border-radius: 0.8rem;
   font-size: 1.5em;
 }
 
